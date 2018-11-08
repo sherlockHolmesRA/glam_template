@@ -59,3 +59,23 @@
     visibility: visible;
   }
 }
+#prevArrow{
+  left: 140px;
+}
+.underlines{
+  width:50px;
+}
+
+#redbtn{
+  margin: 50px;
+  padding:6px 0 6px 0;
+	font:Bold 13px Arial;
+	background: #e62f2f;
+	color:white;
+  width:255px;
+  height: 50px;
+	border-radius:5px;
+	border:none;
+}
+
+

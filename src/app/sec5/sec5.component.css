@@ -1,25 +1,25 @@
-
 /*--
     subscribe Start
 --*/
 #subscribe {
   padding: 100px 0px;
   text-align: center;
- background: url("../../assets/images/news_letter_background_image_home@1x.png");
+  background: url("../../assets/images/news_letter_background_image_home@1x.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   position: relative;
 }
+ul{
+  list-style: none;
+}
 #subscribe:before {
   content: "";
   position: absolute;
-  /* background: url("../../assets/images/news_letter_background_image_home@1x.png") #000000;*/
-
   width: 100%;
   height: 100%;
-  opacity: 0.3;
 }
+
 #subscribe .block h1.heading {
   color: #fff;
 }
@@ -29,7 +29,7 @@
   font-size: 18px;
 }
 #subscribe .block form .form-control {
-  width: 450px;
+  width: 500px;
   background: #fff;
   opacity: 0.9;
   border: none;
@@ -47,7 +47,7 @@
   height: 65px;
   border: none;
   border-radius: 0px;
-  background: #7EC3BB;
+  background: grey;
   color: #fff;
   font-weight: 600;
   font-size: 16px;

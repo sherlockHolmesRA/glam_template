@@ -8,6 +8,7 @@ import { Sec2Component } from './sec2/sec2.component';
 import { Sec3Component } from './sec3/sec3.component';
 import { Sec4Component } from './sec4/sec4.component';
 import { Sec5Component } from './sec5/sec5.component';
+import { CarouselComponent } from './carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { Sec5Component } from './sec5/sec5.component';
     Sec3Component,
     Sec4Component,
     Sec5Component,
+    CarouselComponent,
   ],
   imports: [
     BrowserModule,

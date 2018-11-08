@@ -305,4 +305,16 @@ header.masthead p {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
 }
 
+#redbtn{
+  margin: 10px;
+  padding:6px 0 6px 0;
+	font:Bold 13px Arial;
+	background: grey;
+	color:white;
+  width:255px;
+  height: 50px;
+  border-radius:5px;
+	border:3px;
+}
+
 
