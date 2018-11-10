@@ -1,41 +1,45 @@
 /*--
     subscribe Start
 --*/
+.whitetitle{
+  color: #fff;
+}
 #subscribe {
-  padding: 100px 0px;
   text-align: center;
   background: url("../../assets/images/news_letter_background_image_home@1x.png");
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
   position: relative;
+  width: 100%;
+  height: 100%;
 }
 ul{
   list-style: none;
 }
-#subscribe:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
+#tout{
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
 }
-
+.block{
+  margin-top: 100px;
+}
 #subscribe .block h1.heading {
   color: #fff;
 }
 #subscribe .block p {
   padding: 25px 0px;
   color: #fff;
-  font-size: 18px;
+  font-size: 15px;
 }
 #subscribe .block form .form-control {
+  text-align: center;
   width: 500px;
   background: #fff;
   opacity: 0.9;
   border: none;
-  height: 65px;
+  height: 50px;
   border-radius: 0px;
-  font-size: 15px;
+  font-size: 12px;
 }
 #subscribe .block form .input-group-addon {
   padding: 0px;
@@ -44,10 +48,10 @@ ul{
 }
 #subscribe .block form .input-group-addon button {
   width: 212px;
-  height: 65px;
+  height: 50px;
   border: none;
   border-radius: 0px;
-  background: grey;
+  background: #252727;
   color: #fff;
   font-weight: 600;
   font-size: 16px;
@@ -58,5 +62,103 @@ ul{
   transition: .3s all;
 }
 #subscribe .block form .input-group-addon button:hover {
-  background: #69a8a1;
+  background: #454949;
 }
+#bottomnavbar {
+  color: white;
+  margin-top: 30px;
+  width:750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* -------------------------------------------------- */
+a.nav-link,
+a.nav-link:focus {
+  /*font-size: .9rem;*/
+  font-size: 10px;
+  /*font-weight: 700;*/
+  text-transform: uppercase;
+  color: #212529;
+}
+
+a.nav-link:hover,
+a.nav-link:focus:hover {
+  color: #F05F40;
+}
+
+a.nav-link.active,
+a.nav-link:focus.active {
+  color: #F05F40 !important;
+  background-color: transparent;
+}
+
+a.nav-link.active:hover,
+a.nav-link:focus.active:hover {
+  background-color: transparent;
+}
+
+
+a.nav-link {
+    padding: 0.5rem 1rem;
+  }
+a.nav-link,
+a.nav-link:focus {
+    color: rgba(255, 255, 255, 0.7);
+  }
+a.nav-link:hover,
+a.nav-link:focus:hover {
+    color: #fff;
+  }
+
+  /* social media icons */
+  ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left:0 !important;
+    padding: 0;
+  }
+  ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+  }
+
+  .social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+  .social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+    color:#fff;
+  }
+
+  .social-circle li a {
+    display:inline-block;
+    position:relative;
+    margin:0 auto 0 auto;
+    text-align:center;
+    width: 30px;
+    height: 50px;
+    font-size:15px;
+  }
+  .social-circle li i {
+    margin:0;
+    line-height:50px;
+    text-align: center;
+  }
+
+  .social-circle li a:hover i, .triggeredHover {
+
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+  .social-circle i {
+    color: #fff;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+  }
