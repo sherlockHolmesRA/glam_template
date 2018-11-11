@@ -1,0 +1,34 @@
+#carousel2{
+  text-align: center;
+}
+h3{
+  color: red;
+  font-size: 18px;
+  position: center;
+}
+.background{
+  width: 100%;
+  height: 100%;
+}
+h4{
+  text-transform: uppercase;
+}
+.capital{
+  margin-bottom: 30px;
+}
+#title {
+  padding-bottom: 70px;
+}
+.description{
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.item{
+  text-align: center;
+}
+.carousel-caption{
+  height: 100%;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
