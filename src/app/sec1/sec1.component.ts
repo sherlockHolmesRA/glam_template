@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from '../data.service';
 
 @Component({
   selector: 'app-sec1',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Sec1Component implements OnInit {
 
-  constructor() { }
+  constructor(private dataservice: DataService) {}
+  datas;
 
   ngOnInit() {
+    this.dataservice.getdata().subscribe(res => {
+      // console.log(res.json());
+      this.datas = res.json().data;
+    });
   }
 
 }
